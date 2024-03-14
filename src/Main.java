@@ -15,9 +15,9 @@ public class Main {
                 writer.write(replacedLine);
                 writer.newLine();
             }
-            System.out.println("Replacement completed. Check output.txt for the result.");
+            System.out.println("đoạn thay: ");
         } catch (IOException e) {
-            System.err.println("Error occurred while processing the file: " + e.getMessage());
+            System.err.println("ko tìm thấy file! " + e.getMessage());
         }
     }
 }
